@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<style>
+  button { 
+    cursor: pointer;
+  }
+   
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px; 
+    transition: height 1s, width 1s, padding-left 1s, padding-top 1s;
+  }
+  
+  .stretch-button:hover {
+    height: 100px;
+    width: 250px;
+  }
+
+  .shadow-button {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 140px; 
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+    vertical-align: top;
+    text-decoration-color: white;
+    <!-- transition: margin-left 0.1s, margin-right 0.1s; -->
+  }
+  
+  .shadow-button:active {
+    margin-left: 55px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 0 white;
+  } 
+
+  .num-buttons {
+    background-color: green;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    transition: width 0.25s, margin-left 0.25s, margin-right 0.25s;
+  }
+
+  .num-buttons:hover {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 120px;
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration;
+  }
+
+</style>
+
+<button class="stretch-button"> Stretch </button>
+
+
+<button class="shadow-button"> Shadow </button>
+
+
+</br>
+</br>
+
+<button class="num-buttons"> One </button>
+<button class="num-buttons"> Two </button>
+<button class="num-buttons"> Three </button>
+
+</br>
+</br>
+
+<pagination> 1 2 3 4 5 </pagination>

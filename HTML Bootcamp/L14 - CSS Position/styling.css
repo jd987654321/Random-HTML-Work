@@ -1,0 +1,149 @@
+body {
+  padding-top: 60px;
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  background-color: black;
+}
+
+.right-sidebar {
+  position: fixed;
+  background-color: green;
+  color: white;
+  width: 100px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(150,150,150,0.7); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: white;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15px;
+  padding-left: 15px;
+}
+
+.facebook-header {
+  padding-left: 90px;
+  font-family: arial;
+  position: fixed;
+  height: 60px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.header-pfp {
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+}
+
+.header-name {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.friend-button {
+  margin-left: 530px;
+  width: 110px;
+  height: 40px;
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  font-size: 15px; 
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.message-button {
+  margin-left: 10px;
+  width: 110px;
+  height: 40px;
+  background-color: gainsboror;
+  border: none;
+  color: black;
+  font-size: 15px; 
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.discord-div {
+  position: relative;
+  top: -10px;
+  left: -8px;
+  width: 200px;
+  height: 1000px;
+  background-color: rgb(35,35,35);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: 5px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.pfp-backgrounds {
+  display: flex;
+  flex-direction: column;  
+}
+
+.discord-pfp {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.channel-div {
+  font-family: arial;
+  position: fixed;
+  width: 225px;
+  height: 1000px;
+  top: 60px;
+  left: 90px;
+  background-color: rgb(55,55,55);
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.channel-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  display: flex; 
+  align-items: center;
+}
+
+.channels {
+  color: gray;
+  margin-bottom: 20px;
+}
